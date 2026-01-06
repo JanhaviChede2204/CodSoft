@@ -47,8 +47,8 @@ def division():
 
 def modulus():
     try:
-        input1 = float(input("Enter first number :"))
-        input2 = float(input("Enter a number :"))
+        input1 = float(input("Enter divident :"))
+        input2 = float(input("Enter divisor :"))
         mod=input1%input2
         print("Result Remainder = ",mod)
     except ZeroDivisionError:
@@ -72,7 +72,7 @@ try:
         elif choice == "5":
             modulus()
         elif choice == "6":
-            print("Thank you for using Calculator App!")
+            print("Thank you for using Calculator !")
             break
         else:
             print("Invalid choice. Please try again.")

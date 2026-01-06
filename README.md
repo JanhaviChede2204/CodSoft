@@ -5,6 +5,7 @@ This repository contains tasks and projects completed during my Python Programmi
 ## Projects
 - Calculator (CLI)
 - To-Do List Application (CLI)
+- Password Generator (CLI)
 
 ## Technologies Used
 - Python

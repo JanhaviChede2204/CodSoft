@@ -11,7 +11,7 @@ def generate_password(length):
     return password
 
 def main():
-    print("=== Password Generator ===")
+    print(" Password Generator ")
 
     try:
         length = int(input("Enter desired password length: "))
